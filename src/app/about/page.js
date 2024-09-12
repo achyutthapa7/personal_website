@@ -38,7 +38,7 @@ const About = () => {
               <Image
                 src={me}
                 alt="Achyut Thapa"
-                className="w-48 h-48 rounded-[20px] shadow-lg object-cover mx-auto"
+                className="w-96 h-96 rounded-[20px] shadow-lg object-cover mx-auto"
               />
             </div>
             <div className="md:w-2/3 md:pl-8 text-center md:text-left">
