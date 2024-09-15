@@ -22,7 +22,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            I’m Achyut Thapa, a passionate Full Stack MERN Developer with a
+            I&apos;m Achyut Thapa, a passionate Full Stack MERN Developer with a
             drive for creating dynamic and engaging web applications. With a
             keen eye for detail and a commitment to excellence, I aim to build
             technology that solves real-world problems.

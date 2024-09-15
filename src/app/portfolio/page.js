@@ -45,7 +45,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-6 mt-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">My Projects</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            Explore some of the projects I&aposve worked on. Each project
+            Explore some of the projects I&apos;ve worked on. Each project
             highlights my skills and showcases the impact of my work.
           </p>
         </div>

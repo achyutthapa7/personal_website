@@ -60,8 +60,8 @@ const Contact = () => {
         <div className="container mx-auto">
           <h1 className="text-5xl font-bold mb-4">Contact Me</h1>
           <p className="text-xl mb-6">
-            I&aposd love to hear from you! Whether you have a question or just want
-            to say hello, feel free to reach out.
+            I&apos;d love to hear from you! Whether you have a question or just
+            want to say hello, feel free to reach out.
           </p>
         </div>
       </section>
