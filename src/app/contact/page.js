@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { BounceLoader } from "react-spinners";
@@ -70,17 +71,23 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {/* Contact Information */}
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
+            <Link
+              href={"tel:+9779748356365"}
+              className="bg-gray-100 p-6 rounded-lg shadow-lg text-center"
+            >
               <FaPhoneAlt className="text-3xl text-green-500 mb-4 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Phone</h3>
               <p className="text-gray-700">+977 974-8356-365</p>
-            </div>
+            </Link>
 
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
+            <Link
+              href={"mailto:achyut777thapa@gmail.com"}
+              className="bg-gray-100 p-6 rounded-lg shadow-lg text-center"
+            >
               <FaEnvelope className="text-3xl text-teal-500 mb-4 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">Email</h3>
               <p className="text-gray-700">achyut777thapa@gmail.com</p>
-            </div>
+            </Link>
 
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
               <FaMapMarkerAlt className="text-3xl text-blue-500 mb-4 mx-auto" />
