@@ -85,24 +85,40 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md">
-          <Link href="/" className={`block py-2 px-4 ${isActive("/")}`}>
+        ///////////////////
+        <div className={`md:hidden  bg-white shadow-md `}>
+          <Link
+            href="/"
+            className={`block py-2 px-4 ${isActive("/")}`}
+            onClick={() => {
+              setIsOpen(false);
+            }}
+          >
             Home
           </Link>
           <Link
             href="/about"
+            onClick={() => {
+              setIsOpen(false);
+            }}
             className={`block py-2 px-4 ${isActive("/about")}`}
           >
             About Me
           </Link>
           <Link
             href="/portfolio"
+            onClick={() => {
+              setIsOpen(false);
+            }}
             className={`block py-2 px-4 ${isActive("/portfolio")}`}
           >
             Projects
           </Link>
           <Link
             href="/contact"
+            onClick={() => {
+              setIsOpen(false);
+            }}
             className={`block py-2 px-4 ${isActive("/contact")}`}
           >
             Contact
